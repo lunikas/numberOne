@@ -22,7 +22,7 @@
       <a href="#!" class="brand-logo center">Logo</a>
       <ul class="left hide-on-med-and-down">
         <li><a href="index.php">Home</a></li>
-        <li><a href="gallery.php">About</a></li>
+        <li><a href="gallery.php">Gallery</a></li>
         <li class="active"><a href="collapsible.html">JavaScript</a></li>
       </ul>
     </div>
