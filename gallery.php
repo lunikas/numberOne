@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <!-- Čia galerijos puslapio vidinė dalis -->
 <div class="col center-align">
     <img class="responsive-img" src="https://picsum.photos/600/200" alt="nuotrauka">
