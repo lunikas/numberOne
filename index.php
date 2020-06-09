@@ -4,11 +4,26 @@
 
   <!-- Čia pagrindinio puslapio vidinė dalis -->
   
-  <div class="pagrindinis_paveikslas">
-            <img  src="https://picsum.photos/200/200" alt="">
-  <div>
-                
+  <header>
+
+		<div class="overlay"></div>
+
+    <img class="pagrindinis_paveikslas" src="https://picsum.photos/800/500" alt="">
     
+    <div class="container">
+					
+			<div class="title">
+				<h1> Projekto tekstas</h1>
+				
+			</div>
+
+			
+
+		</div>
+  
+  </header>
+
+  
             
 
 
