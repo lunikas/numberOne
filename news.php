@@ -9,56 +9,65 @@
     <div class="row z-depth-1">
 
 
-        
-        <h6 class="date">10.06.2020 20:40</h6>
+        <div class="col s12 m4 l2"><img src="https://picsum.photos/seed/1/150/150" alt="">
+        </div>
 
-        <div class="divider"></div>
+        <div class="col s12 m4 l8">
+            <blockquote>
+                <h6 class="date">10.06.2020 20:40</h6>
+
+                <div class="divider"></div>
+                <h4 class="blue-text text-darken-2">Kelioniu naujienos</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium odit velit soluta quam quibusdam non totam quasi, unde facilis culpa corporis expedita architecto possimus fugiat voluptate, similique nulla accusamus eos!</p>
+            </blockquote>
+            <a class="waves-effect waves-teal btn-flat">Read more</a>
+        </div>
+
+        <div class="col s12 m4 l2"></div>
+    </div>
+
+
+
+    <div class="row z-depth-1">
+
 
         <div class="col s12 m4 l2"><img src="https://picsum.photos/seed/1/150/150" alt="">
         </div>
 
         <div class="col s12 m4 l8">
-        <blockquote> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium odit velit soluta quam quibusdam non totam quasi, unde facilis culpa corporis expedita architecto possimus fugiat voluptate, similique nulla accusamus eos!</p></blockquote>
+            <blockquote>
+                <h6 class="date">10.06.2020 20:40</h6>
+
+                <div class="divider"></div>
+                <h4 class="blue-text text-darken-2">Kelioniu naujienos</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium odit velit soluta quam quibusdam non totam quasi, unde facilis culpa corporis expedita architecto possimus fugiat voluptate, similique nulla accusamus eos!</p>
+            </blockquote>
             <a class="waves-effect waves-teal btn-flat">Read more</a>
-  </div>
+        </div>
 
         <div class="col s12 m4 l2"></div>
     </div>
-
-
 
     <div class="row z-depth-1">
 
-    <h6 class="date">10.06.2020 20:40</h6>
 
-<div class="divider"></div>
-        <div class="col s12 m4 l2"><img src="https://picsum.photos/seed/2/150/150" alt="">
-        </div>
+<div class="col s12 m4 l2"><img src="https://picsum.photos/seed/1/150/150" alt="">
+</div>
 
-        <div class="col s12 m4 l8">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium odit velit soluta quam quibusdam non totam quasi, unde facilis culpa corporis expedita architecto possimus fugiat voluptate, similique nulla accusamus eos!</p>
-            <a class="waves-effect waves-teal btn-flat">Read more</a>
-        </div>
+<div class="col s12 m4 l8">
+    <blockquote>
+        <h6 class="date">10.06.2020 20:40</h6>
 
-        <div class="col s12 m4 l2"></div>
-    </div>
+        <div class="divider"></div>
+        <h4 class="blue-text text-darken-2">Kelioniu naujienos</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium odit velit soluta quam quibusdam non totam quasi, unde facilis culpa corporis expedita architecto possimus fugiat voluptate, similique nulla accusamus eos!</p>
+    </blockquote>
+    <a class="waves-effect waves-teal btn-flat">Read more</a>
+</div>
 
+<div class="col s12 m4 l2"></div>
+</div>
 
-    <div class="row z-depth-1">
-
-    <h6 class="date">10.06.2020 20:40</h6>
-
-<div class="divider"></div>
-        <div class="col s12 m4 l2"><img src="https://picsum.photos/seed/3/150/150" alt="">
-        </div>
-
-        <div class="col s12 m4 l8">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium odit velit soluta quam quibusdam non totam quasi, unde facilis culpa corporis expedita architecto possimus fugiat voluptate, similique nulla accusamus eos!</p>
-            <a class="waves-effect waves-teal btn-flat">Read more</a>
-        </div>
-
-        <div class="col s12 m4 l2"></div>
-    </div>
 
     <div>
         <ul class="pagination center">
@@ -74,6 +83,5 @@
 
 </div>
 
-</div>
 
 <?php include "footer.php" ?>
