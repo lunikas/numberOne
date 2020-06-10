@@ -18,12 +18,14 @@
 <body>
 
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper #42a5f5 blue lighten-1">
       <a href="#!" class="brand-logo center">Logo</a>
       <ul class="left hide-on-med-and-down">
         <li><a href="index.php">Home</a></li>
+        <li><a href="news.php">News</a></li>
         <li><a href="gallery.php">Gallery</a></li>
-        <li class="active"><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="about.php">About Us</a></li>
+        <!-- <li class="active"><a href="collapsible.html">JavaScript</a></li> -->
       </ul>
     </div>
   </nav>
