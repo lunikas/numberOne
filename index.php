@@ -1,10 +1,8 @@
 <?php include "header.php" ?>
 <!-- Čia pagrindinio puslapio vidinė dalis -->
-
+<br><br>
 <header>
   <div class="padengimas"></div>
-
-  <img class="paveikslas" src="images/bg-4.jpg">
 
   <div class="konteineris">
 
@@ -14,44 +12,37 @@
     </div>
 
     <div class="button-holder">
-      <a class="button" href=""><img class="button-request" src="images/loc.png">Request a Qoute</a>
+      <a class="button" href="about.php"><img class="button-request" src="images/loc.png">Request a Qoute</a>
     </div>
   </div>
 </header>
 
+<br><br>
 
 <div class="row">
 
-  <div class="col s12 m6 l4 center-align">
-    <img class="responsive-img" src="https://picsum.photos/300/300" alt="">
+  <div class="col s12 m6 l4 center-align plotis">
+    <img class="responsive-img" src="images/image_3.jpg" alt="">
     <h3>Finance And Leagal Working Strems</h3>
     <p>Far far away, behind the word mountains,far fromthe counries Vokalia and Consonantia, there live the blind text.</p>
+    <a class="mygtukas" href=""><img class="button-request" src="images/loc.png">Read more</a>
   </div>
 
 
-  <div class="col s12 m6 l4 center-align">
-    <img class="responsive-img" src="https://picsum.photos/300/300" alt="">
+  <div class="col s12 m6 l4 center-align plotis">
+    <img class="responsive-img" src="images/image_5.jpg" alt="">
     <h3>Finance And Leagal Working Strems</h3>
     <p>Far far away, behind the word mountains,far fromthe counries Vokalia and Consonantia, there live the blind text.</p>
+    <a class="mygtukas" href=""><img class="button-request" src="images/loc.png">Read more</a>
   </div>
 
-  <div class="col s12 m6 l4 center-align">
-    <img class="responsive-img" src="https://picsum.photos/300/300" alt="">
+  <div class="col s12 m6 l4 center-align plotis">
+    <img class="responsive-img" src="images/image_2.jpg" alt="">
     <h3>Finance And Leagal Working Strems</h3>
     <p>Far far away, behind the word mountains,far fromthe counries Vokalia and Consonantia, there live the blind text.</p>
+    <a class="mygtukas" href=""><img class="button-request" src="images/loc.png">Read more</a>
   </div>
 
 </div>
-
-<div class="read-more">
-  <form target="_blank" method="GET" action="https://google.com/search">
-    <input name="query" type="text">
-    <button>Read more</button>
-</div>
-
-
-
-
-
 
 <?php include "footer.php" ?>
