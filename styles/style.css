@@ -10,7 +10,11 @@
 
 /* Lukas "news.php" stiliaus kodas: */
 
-
+.date {
+    color: rgb(129, 25, 25);
+    opacity: 0.8;
+    font-size: 6px;
+}
 
 
 

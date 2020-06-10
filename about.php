@@ -1,5 +1,33 @@
 <?php include "header.php" ?>
 
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "birzelis2020";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+if (isset($_GET["email"])) {
+
+    $email = $_GET["email"];
+    $message = $_GET["message"];
+    $date = $_GET["date"];
+
+    $sql = "INSERT INTO contacts (id, email, message, date) VALUES (null, '$email','$message','$date')";
+
+    if ($conn->query($sql) === TRUE) {
+        header("Location: http://localhost/numberOne/about.php?status=success");
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+?>
+
 <div class="container about">
 
 
@@ -15,7 +43,7 @@
     </div>
 
 
-    <p class="slogan center-align">Mes rūpinamės jūsų kokybišku poilsiu!</p>
+    <p class="slogan center-align">Mes rūpinamės Jūsų kokybišku poilsiu!</p>
 
 
 
@@ -30,9 +58,9 @@
         </div>
         <div class="card-content" id="one">
             <div class="row">
-                <img class="col l6 m10 s12" src="https://picsum.photos/id/177/500/500" alt="kalnai">
+                <img class="col l6  s12" src="https://picsum.photos/id/177/500/500" alt="kalnai">
 
-                <div class="col l6 m10 s12 products">
+                <div class="col l6  s12 products">
                     <h6>Mėgstantiems aktyvų poilsį</h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
@@ -41,8 +69,8 @@
         </div>
         <div class="card-content" id="two">
             <div class="row">
-                <img class="col l6 m10 s12" src="https://picsum.photos/id/191/500/500" alt="kelias">
-                <div class="col l6 m10 s12 products">
+                <img class="col l6  s12" src="https://picsum.photos/id/191/500/500" alt="kelias">
+                <div class="col l6  s12 products">
                     <h6>Trokštantiems įspūdžių ir norintiems pamatyti kuo daugiau</h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
@@ -52,9 +80,9 @@
         <div class="card-content" id="three">
             <div class="row">
 
-                <img class="col l6 m10 s12" src="https://picsum.photos/id/449/500/500" alt="papludimys">
+                <img class="col l6  s12" src="https://picsum.photos/id/449/500/500" alt="papludimys">
 
-                <div class="col l6 m10 s12 products">
+                <div class="col l6  s12 products">
                     <h6>Pavargusiems ir norintiems tiesiog pagulėti</h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
@@ -71,7 +99,8 @@
         <p>LT-pasto kodas</p>
         <p>Lietuva</p>
         <p>tel. 8 5 212 33 22</p>
-        <p>El.paštas: email@email.com</p>
+        <p>El.paštas:<a href="mailto:laishkeliams@gmail.com"> email@email.com</a></p>
+
     </div>
 
 
@@ -84,31 +113,29 @@
             <form action="">
                 <div class="input-field">
                     <i class="material-icons prefix">email</i>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email">
                     <label for="email">Jūsų elektroninis paštas</label>
                 </div>
                 <div class="input-field">
                     <i class="material-icons prefix">message</i>
-                    <textarea class="materialize-textarea" id="message"></textarea>
+                    <textarea class="materialize-textarea" id="message" name="message"></textarea>
                     <label for="message">Jūsų žinutė</label>
                 </div class="input-field">
-                <input class="datepicker" type="text" id="date">
+                <input class="datepicker" type="text" id="date" name="date">
                 <label for="date">Pasirinkite norimą susitikimo datą</label>
                 <div>
                     <div class="input-field">
                         <button class="btn">Siųsti</button>
                     </div>
 
+                    <?php
+                    if (isset($_GET["status"]) && $_GET["status"] === "success") {
+                        echo "<p>Jūsų žinutė nusiųsta sėkmingai!</p>";
+                    }
+                    ?>
                 </div>
 
-
-
-
-
             </form>
-
-
-
 
         </div>
 
