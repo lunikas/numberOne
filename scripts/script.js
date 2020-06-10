@@ -1,3 +1,8 @@
+// Bendras JS kodas
+
+// Luko JS kodas
+
+// Jurgitos kodas
 var el = document.querySelector('.tabs');
     var instance = M.Tabs.init(el);
 
