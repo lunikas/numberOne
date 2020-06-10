@@ -28,25 +28,55 @@
     
 }
 
-.about {
-    font-style: italic;
+.about {    
     color: navy;
 }
 
-.about h1 {
+.about .pageName h1 {
     text-align: center;
-    color: navy;
+    font-size: xx-large;
+    color: navy;    
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.about .pageName h1::after {
+    content: "";
+    position: absolute;
+    border-top-color: #ccd234;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    width: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);   
+
+}
+
+.about .slogan {
+    font-size: x-large;
+    padding: 20px;
 }
 
 .about img {
     width: 100%;
 }
 
+.about .tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(201, 199, 199, 0.062);
+}
+
 .about .tabs .tab a {
     color: navy;
 }
+
 .about .tabs .indicator {
     background-color: navy;
+    height: 1px;
+}
+
+.products h6 {
+padding-bottom: 20px;
 }
 
 .map {

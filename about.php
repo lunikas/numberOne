@@ -6,12 +6,16 @@
     <div class="breadcrumb-wrapper">
         <div class="col s12">
             <a href="index.php" class="breadcrumb">Home</a>
-            <a href="about.php" class="breadcrumb">About</a>            
+            <a href="about.php" class="breadcrumb">About</a>
         </div>
     </div>
 
+    <div class="pageName">
+        <h1>About Us</h1>
+    </div>
 
-    <h1>About Us</h1>
+
+    <p class="slogan center-align">Mes rūpinamės jūsų kokybišku poilsiu!</p>
 
 
 
@@ -25,39 +29,39 @@
             </ul>
         </div>
         <div class="card-content" id="one">
-            <div class="row" >
+            <div class="row">
                 <img class="col l6 m10 s12" src="https://picsum.photos/id/177/500/500" alt="kalnai">
-                
+
                 <div class="col l6 m10 s12 products">
-                <h6>Mėgstantiems aktyvų poilsį</h6>
-                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
-                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                    <h6>Mėgstantiems aktyvų poilsį</h6>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
                 </div>
-            </div>            
+            </div>
         </div>
         <div class="card-content" id="two">
-            <div class="row" >
+            <div class="row">
                 <img class="col l6 m10 s12" src="https://picsum.photos/id/191/500/500" alt="kelias">
                 <div class="col l6 m10 s12 products">
-                <h6>Trokštantiems įspūdžių ir norintiems pamatyti kuo daugiau</h6>
-                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
-                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                    <h6>Trokštantiems įspūdžių ir norintiems pamatyti kuo daugiau</h6>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
                 </div>
-            </div>            
+            </div>
         </div>
         <div class="card-content" id="three">
-            <div class="row" >
-            
+            <div class="row">
+
                 <img class="col l6 m10 s12" src="https://picsum.photos/id/449/500/500" alt="papludimys">
-                
+
                 <div class="col l6 m10 s12 products">
-                <h6>Pavargusiems ir norintiems tiesiog pagulėti</h6>
-                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
-                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                    <h6>Pavargusiems ir norintiems tiesiog pagulėti</h6>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
                 </div>
-            </div>            
+            </div>
         </div>
-        
+
     </div>
 
     <h5>Mus rasite Vilniaus centre</h5>
