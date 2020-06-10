@@ -10,7 +10,11 @@
 
 /* Lukas "news.php" stiliaus kodas: */
 
-
+.date {
+    color: rgb(129, 25, 25);
+    opacity: 0.8;
+    font-size: 6px;
+}
 
 
 
@@ -122,20 +126,14 @@ font-weight: 500;
 }
 
 
-
-
-
-
 /* Alyte stiliaus kodas: */
-
-
 
 body {
 	margin: 0;
 }
 
 header {
-	background-image: url(../images/header.jpg);
+	background-image: url(../images/about.jpg);
 	background-size: cover;
 	position: relative;
 }
@@ -163,18 +161,22 @@ header {
 }
 
 .paveikslas {
-	height: 18px;
 	position: absolute;
-	bottom: 32px;
-	padding-bottom: 8px;
-	left: 50%;
+	bottom: 20px;
+	padding-top: 60px;
+    left: 50%;
+    top: 50%;
 	transform: translate(-50%, -50%);
 	/* cursor: pointer;
 	transition: 0.5; */
 }
 
 .paveikslas:hover {
-	padding-bottom: 0px;
+	padding-bottom: 20px;
+}
+.row .plotis{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .antraste {
@@ -182,13 +184,13 @@ header {
 	padding-bottom: 200px;
 }
 
-h1 {
+.antraste h1 {
 	text-align: center;
 	color: white;
 	font-size: 40px;
 }
 
-h2 {
+.antraste h2 {
 	text-align: center;
 	color: white;
     font-size: 25px;
@@ -200,7 +202,7 @@ h2 {
 	margin: 40px 0;
 }
 .button-holder{
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
     position: absolute; 
     bottom: 28%;
@@ -231,26 +233,40 @@ a.button:hover {
 	vertical-align: middle;
 }
 
-h3{
+.plotis h3{
     font-size: 20px;
     font-style:normal;
 }
 
-.row p{
+.plotis p{
     font-size: 15px;
     font-style:normal;
 }
 
-.read-more{
-    height: 40px;
+.mygtuko-laikiklis{
+    text-align: center;
+    margin: 0px;
+	/* margin: 40px 0; */
+}
+
+a.mygtukas {
     background-color:whitesmoke;
-    text-decoration: none;
-    border-radius: 10px;
-	padding-right: 20px;
-	margin-left: 0px;
-    vertical-align: middle;
+    padding: 8px 24px;
+	color: #000040;
+	text-decoration: none;
+	border-radius: 10px;
     display: inline-block;
 }
+a.mygtukas:hover {
+box-shadow: 0px 0px 8px grey;
+}
+
+
+	/* transition: all 0.5s;
+	box-shadow: 0px 0px 2px grey;
+
+
+
 
     
    
