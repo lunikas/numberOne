@@ -4,6 +4,7 @@
 
 
 
+
 /* Lukas "news.php" stiliaus kodas: */
 
 
@@ -18,15 +19,36 @@
 
 /* Jurgita "about.php" stiliaus kodas: */
 
+.about .breadcrumb-wrapper {
+    margin-top: 20px;
+}
+
+.about .breadcrumb, .breadcrumb:before {
+    color: navy;
+    
+}
+
 .about {
     font-style: italic;
+    color: navy;
+}
+
+.about h1 {
+    text-align: center;
+    color: navy;
+}
+
+.about img {
+    width: 100%;
 }
 
 .map {
     width: 100%;
     height: 350px;
 }
-
+.about h5 {
+     padding: 20px;
+ }
 
 
 
