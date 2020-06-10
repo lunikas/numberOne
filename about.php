@@ -6,8 +6,7 @@
     <div class="breadcrumb-wrapper">
         <div class="col s12">
             <a href="index.php" class="breadcrumb">Home</a>
-            <a href="about.php" class="breadcrumb">About</a>
-            <a href="#!" class="breadcrumb">Pirmas Vardas</a>
+            <a href="about.php" class="breadcrumb">About</a>            
         </div>
     </div>
 
@@ -15,26 +14,50 @@
     <h1>About Us</h1>
 
 
+
     <div class="card  light-blue-text text-darken-4">
-        
+
         <div class="card-tabs">
             <ul class="tabs tabs-fixed-width">
-                <li class="tab"><a class="active" href="#test4">Pirmas Vardas</a></li>
-                <li class="tab"><a href="#test5">Antras Vardas</a></li>
-                <li class="tab"><a href="#test6">Trečias vardas</a></li>
+                <li class="tab"><a class="active" href="#one">Žygiai</a></li>
+                <li class="tab"><a href="#two">Kelionės automobiliu</a></li>
+                <li class="tab"><a href="#three">Poilsinės kelionės</a></li>
             </ul>
         </div>
-        <div class="card-content">
-            <div class="row">
-        <img class= "col l6 m10 s12" src="https://picsum.photos/id/237/500/500" alt="kazkas grazaus">
-        <p class= "col l6 m10 s12">Mes mokam lotyniskai --> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+        <div class="card-content" id="one">
+            <div class="row" >
+                <img class="col l6 m10 s12" src="https://picsum.photos/id/177/500/500" alt="kalnai">
+                
+                <div class="col l6 m10 s12 products">
+                <h6>Mėgstantiems aktyvų poilsį</h6>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                </div>
+            </div>            
         </div>
+        <div class="card-content" id="two">
+            <div class="row" >
+                <img class="col l6 m10 s12" src="https://picsum.photos/id/191/500/500" alt="kelias">
+                <div class="col l6 m10 s12 products">
+                <h6>Trokštantiems įspūdžių ir norintiems pamatyti kuo daugiau</h6>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                </div>
+            </div>            
         </div>
-        <div class="card-content blue-grey lighten-5">
-            <div id="test4">Pirmas Vardas</div>
-            <div id="test5">Antras Vardas</div>
-            <div id="test6">Trečias Vardas</div>
+        <div class="card-content" id="three">
+            <div class="row" >
+            
+                <img class="col l6 m10 s12" src="https://picsum.photos/id/449/500/500" alt="papludimys">
+                
+                <div class="col l6 m10 s12 products">
+                <h6>Pavargusiems ir norintiems tiesiog pagulėti</h6>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus eius, voluptatibus totam explicabo voluptatem nihil nisi consequuntur adipisci laboriosam debitis, rerum necessitatibus eligendi! Cum nam ipsum magni omnis. Iusto, itaque?</p>
+                </div>
+            </div>            
         </div>
+        
     </div>
 
     <h5>Mus rasite Vilniaus centre</h5>

@@ -42,6 +42,13 @@
     width: 100%;
 }
 
+.about .tabs .tab a {
+    color: navy;
+}
+.about .tabs .indicator {
+    background-color: navy;
+}
+
 .map {
     width: 100%;
     height: 350px;
