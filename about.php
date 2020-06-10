@@ -15,7 +15,7 @@
     </div>
 
 
-    <p class="slogan center-align">Mes rūpinamės jūsų kokybišku poilsiu!</p>
+    <p class="slogan center-align">Mes rūpinamės Jūsų kokybišku poilsiu!</p>
 
 
 
