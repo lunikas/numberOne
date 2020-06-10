@@ -1,5 +1,8 @@
 /* Bendras stilius: */
 
+.btn, .btn-large, .btn-small {
+    background-color: navy;
+}
 
 
 
@@ -24,8 +27,7 @@
 }
 
 .about .breadcrumb, .breadcrumb:before {
-    color: navy;
-    
+    color: navy;    
 }
 
 .about {    
@@ -37,7 +39,7 @@
     font-size: xx-large;
     color: navy;    
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .about .pageName h1::after {
@@ -46,16 +48,16 @@
     border-top-color: #ccd234;
     border-top-style: dotted;
     border-top-width: 1px;
-    width: 50%;
+    width: 100px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);   
-
 }
 
 .about .slogan {
     font-size: x-large;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .about img {
@@ -77,15 +79,44 @@
 
 .products h6 {
 padding-bottom: 20px;
+font-weight: 500;
 }
+
+.about .card .card-content p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.about .findUS h5 {        
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.about .findUS h5::after {
+    content: "";
+    position: absolute;
+    border-top-color: #ccd234;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    width: 50%;
+    bottom: 0;    
+    left: 0;    
+}
+.about .findUS {
+    padding: 20px;
+}
+
 
 .map {
     width: 100%;
     height: 350px;
 }
-.about h5 {
-     padding: 20px;
- }
+
+.contactUS h6 {
+    font-weight: bold;
+}
+
 
 
 
