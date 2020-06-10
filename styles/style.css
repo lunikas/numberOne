@@ -1,28 +1,257 @@
 /* Bendras stilius: */
 
-
-
-
-
-/* Lukas stiliaus kodas: */
-
-
-
-
-
-/* Sandra stiliaus kodas: */
-
-
-
-
-
-/* Jurgita stiliaus kodas: */
-
-.about {
-    font-style: italic;
+.btn, .btn-large, .btn-small {
+    background-color: navy;
 }
 
 
 
 
+
+/* Lukas "news.php" stiliaus kodas: */
+
+
+
+
+
+/* Sandra "galery.php" stiliaus kodas: */
+
+
+
+
+
+/* Jurgita "about.php" stiliaus kodas: */
+
+.about .breadcrumb-wrapper {
+    margin-top: 20px;
+}
+
+.about .breadcrumb, .breadcrumb:before {
+    color: navy;    
+}
+
+.about {    
+    color: navy;
+}
+
+.about .pageName h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: navy;    
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.about .pageName h1::after {
+    content: "";
+    position: absolute;
+    border-top-color: #ccd234;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    width: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+
+.about .slogan {
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about .tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(201, 199, 199, 0.062);
+}
+
+.about .tabs .tab a {
+    color: navy;
+}
+
+.about .tabs .indicator {
+    background-color: navy;
+    height: 1px;
+}
+
+.products h6 {
+padding-bottom: 20px;
+font-weight: 500;
+}
+
+.about .card .card-content p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.about .findUS h5 {        
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.about .findUS h5::after {
+    content: "";
+    position: absolute;
+    border-top-color: #ccd234;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    width: 50%;
+    bottom: 0;    
+    left: 0;    
+}
+.about .findUS {
+    padding: 20px;
+}
+
+
+.map {
+    width: 100%;
+    height: 350px;
+}
+
+.contactUS h6 {
+    font-weight: bold;
+}
+
+
+
+
+
+
 /* Alyte stiliaus kodas: */
+
+
+
+body {
+	margin: 0;
+}
+
+header {
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.paveikslas {
+    width: 100%;
+}
+.padengimas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:rgb(105, 105, 241);
+	opacity: 0.5;
+}
+
+.konteineris {
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 32px;
+	padding-right: 32px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.paveikslas {
+	height: 18px;
+	position: absolute;
+	bottom: 32px;
+	padding-bottom: 8px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* cursor: pointer;
+	transition: 0.5; */
+}
+
+.paveikslas:hover {
+	padding-bottom: 0px;
+}
+
+.antraste {
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.button-holder {
+	text-align: center;
+	margin: 40px 0;
+}
+.button-holder{
+    font-size: 10px;
+    font-style: italic;
+    position: absolute; 
+    bottom: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+a.button {
+    background-color:whitesmoke;
+    padding: 8px 24px;
+	color: #000040;
+	text-decoration: none;
+	border-radius: 10px;
+	display: inline-block;
+	transition: all 0.5s;
+	box-shadow: 0px 0px 2px grey;
+}
+
+a.button:hover {
+	box-shadow: 0px 0px 8px grey;
+}
+
+.button-request {
+	height: 24px;
+	padding-right: 20px;
+	margin-left: -8px;
+	vertical-align: middle;
+}
+
+h3{
+    font-size: 20px;
+    font-style:normal;
+}
+
+.row p{
+    font-size: 15px;
+    font-style:normal;
+}
+
+.read-more{
+    height: 40px;
+    background-color:whitesmoke;
+    text-decoration: none;
+    border-radius: 10px;
+	padding-right: 20px;
+	margin-left: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+    
+   
+	
+	
+
+
+
