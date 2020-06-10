@@ -23,3 +23,163 @@
 
 
 /* Alyte stiliaus kodas: */
+
+
+/* .paveikslas {
+    width: 100%;
+}
+
+.paveikslas h1{
+    color:white;
+    font-size: 30px;
+    position: absolute; 
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.paveikslas h2{
+    color:whitesmoke;
+    font-size: 10px;
+    font-style: italic;
+    position: absolute; 
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+h2 {
+	text-align: left;
+} */
+
+body {
+	margin: 0;
+}
+
+header {
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.paveikslas {
+    width: 100%;
+}
+.padengimas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:rgb(105, 105, 241);
+	opacity: 0.5;
+}
+
+.konteineris {
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 32px;
+	padding-right: 32px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.paveikslas {
+	height: 18px;
+	position: absolute;
+	bottom: 32px;
+	padding-bottom: 8px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* cursor: pointer;
+	transition: 0.5; */
+}
+
+.paveikslas:hover {
+	padding-bottom: 0px;
+}
+
+.antraste {
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.button-holder {
+	text-align: center;
+	margin: 40px 0;
+}
+.button-holder{
+    font-size: 10px;
+    font-style: italic;
+    position: absolute; 
+    bottom: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+a.button {
+    background-color:whitesmoke;
+    padding: 8px 24px;
+	color: #000040;
+	text-decoration: none;
+	border-radius: 10px;
+	display: inline-block;
+	transition: all 0.5s;
+	box-shadow: 0px 0px 2px grey;
+}
+
+a.button:hover {
+	box-shadow: 0px 0px 8px grey;
+}
+
+.button-request {
+	height: 24px;
+	padding-right: 20px;
+	margin-left: -8px;
+	vertical-align: middle;
+}
+
+h3{
+    font-size: 20px;
+    font-style:normal;
+}
+
+.row p{
+    font-size: 15px;
+    font-style:normal;
+}
+
+.read-more{
+    height: 40px;
+    background-color:whitesmoke;
+    text-decoration: none;
+    border-radius: 10px;
+	padding-right: 20px;
+	margin-left: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+    
+   
+	
+	
