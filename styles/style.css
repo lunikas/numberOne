@@ -32,13 +32,14 @@
 
 /* Jurgita "about.php" stiliaus kodas: */
 
-.about .breadcrumb-wrapper {
+.breadcrumb-wrapper {
     margin-top: 20px;
 }
 
-.about .breadcrumb, .breadcrumb:before {
+.breadcrumb, .breadcrumb:before, .breadcrumb:last-child {
     color: 	rgb(26, 35, 126);    
 }
+
 
 .material-tooltip {
     
@@ -137,6 +138,8 @@ font-weight: 500;
 .contactUS h6 {
     font-weight: bold;
 }
+
+
 
 
 

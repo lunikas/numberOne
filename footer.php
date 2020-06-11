@@ -34,7 +34,7 @@
                   Sandra
                   </div>
                 </a></li>
-              <li><a href="#about.php">
+              <li><a href="about.php">                
                   <div class="chip blue-text text-darken-2">
                     <img src="https://z-p3-scontent.fvno1-1.fna.fbcdn.net/v/t31.0-8/266266_105890876174683_7354981_o.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=kQKlBD1-7MEAX_QZT8w&_nc_ht=z-p3-scontent.fvno1-1.fna&oh=b3e6c3f715bc9b3fb59be3a8d3ea3d53&oe=5F071ABD" alt="Contact Person">
                     Jurgita
