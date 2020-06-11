@@ -18,7 +18,10 @@
     color: 	rgb(26, 35, 126)
 }
 
-
+.page-footer {
+    background-image: url("https://picsum.photos/1200");
+    width: 100%;
+}
 
 /* Sandra "galery.php" stiliaus kodas: */
 
