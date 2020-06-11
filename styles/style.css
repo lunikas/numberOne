@@ -9,9 +9,13 @@
 /* Lukas "news.php" stiliaus kodas: */
 
 .date {
-    color: rgb(129, 25, 25);
+    color: grey;
     opacity: 0.8;
-    font-size: 6px;
+    font-size: 11px;
+}
+
+.news {
+    color: 	rgb(26, 35, 126)
 }
 
 
