@@ -8,10 +8,12 @@
 
     <div class="breadcrumb-wrapper">
         <div class="col s12">
-            <a href="index.php" class="tooltipped breadcrumb" data-tooltip="Grįžti į pradinį puslapį">Pagrindinis</a>
-            <a href="news.php" class="breadcrumb">Naujienos</a>
+            <a href="index.php" class="tooltipped breadcrumb blue-text text-darken-2" data-tooltip="Grįžti į pradinį puslapį">Pagrindinis</a>
+            <a href="news.php" class="breadcrumb blue-text text-darken-2">Naujienos</a>
         </div>
     </div>
+
+    
 
     <h1 class="center news">Naujienos</h1>
 
