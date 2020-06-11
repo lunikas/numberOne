@@ -1,8 +1,6 @@
 /* Bendras stilius: */
 
-.btn, .btn-large, .btn-small {
-    background-color: navy;
-}
+
 
 
 
@@ -35,17 +33,20 @@
 }
 
 .about .breadcrumb, .breadcrumb:before {
-    color: navy;    
+    color: 	rgb(26, 35, 126);    
 }
 
-.about {    
-    color: navy;
+.about{
+    color: 	rgb(26, 35, 126);
+}
+
+.about p{
+    color: black;
 }
 
 .about .pageName h1 {
     text-align: center;
-    font-size: xx-large;
-    color: navy;    
+    font-size: xx-large;      
     position: relative;
     padding-bottom: 15px;
 }
@@ -77,11 +78,11 @@
 }
 
 .about .tabs .tab a {
-    color: navy;
+    color: 		rgb(26, 35, 126);
 }
 
 .about .tabs .indicator {
-    background-color: navy;
+    background-color: 	rgb(26, 35, 126);
     height: 1px;
 }
 
@@ -124,6 +125,10 @@ font-weight: 500;
 .contactUS h6 {
     font-weight: bold;
 }
+
+
+
+
 
 
 /* Alyte stiliaus kodas: */

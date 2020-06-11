@@ -39,15 +39,15 @@ if (isset($_GET["email"])) {
     </div>
 
     <div class="pageName">
-        <h1>Apie Mus</h1>
+        <h1 class="indigo-text text-darken-4">Apie Mus</h1>
     </div>
 
 
-    <p class="slogan center-align">Mes rūpinamės Jūsų kokybišku poilsiu!</p>
+    <p class="slogan center-align flow-text indigo-text text-darken-4">Mes rūpinamės Jūsų kokybišku poilsiu!</p>
 
 
 
-    <div class="card  light-blue-text text-darken-4">
+    <div class="card  indigo-text text-darken-4">
 
         <div class="card-tabs">
             <ul class="tabs tabs-fixed-width">
@@ -93,10 +93,9 @@ if (isset($_GET["email"])) {
     </div>
 
     <div class="findUS">
-        <h5>Mūsų kontaktai</h5>
-        <p>Gatve, namas</p>
-        <p>Miestas</p>
-        <p>LT-pasto kodas</p>
+        <h5 class="indigo-text text-darken-4">Mūsų kontaktai</h5>
+        <p>Mūsų gatvė Nr.1,</p>
+        <p>Vilnius 00001</p>
         <p>Lietuva</p>
         <p>tel. 8 5 212 33 22</p>
         <p>El.paštas:<a href="mailto:laishkeliams@gmail.com"> email@email.com</a></p>
@@ -108,7 +107,7 @@ if (isset($_GET["email"])) {
         <iframe class="map col l6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.4099714932604!2d25.27833385059149!3d54.68481288121817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd9411a1bd7cdb%3A0x645ec2d88e118d0c!2sLabdari%C5%B3%20g.%203%2C%20Vilnius%2001120!5e0!3m2!1sen!2slt!4v1591730100877!5m2!1sen!2slt" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
         <div class="contactUS col l6">
-            <h6>Susisiekite su mumis: </h6>
+            <h5 class="indigo-text text-darken-4">Susisiekite su mumis: </h5>
 
             <form action="">
                 <div class="input-field">
@@ -125,12 +124,12 @@ if (isset($_GET["email"])) {
                 <label for="date">Pasirinkite norimą susitikimo datą</label>
                 <div>
                     <div class="input-field">
-                        <button class="btn">Siųsti</button>
+                        <button class="btn indigo darken-4 waves-light">Siųsti</button>
                     </div>
 
                     <?php
                     if (isset($_GET["status"]) && $_GET["status"] === "success") {
-                        echo "<p>Jūsų žinutė nusiųsta sėkmingai!</p>";
+                        echo "<p class='indigo-text text-darken-4'>Jūsų žinutė nusiųsta sėkmingai!</p>";
                     }
                     ?>
                 </div>
