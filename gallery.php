@@ -23,11 +23,12 @@
                 <div class="col s12 m12 l6 left-align">
                     <span class="black-text">
                         <h3> EUROPA <h3>
-                            tekstas po pavadinimo
+                            tekstas po pavadinimo su <a href="about.php"> vietine nuoroda </a>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Nesciunt impedit similique aut quos labore
                                     <h6>
-                                        <p>nuoroda</p>
+                                        <p>sugalvosiu teksta</p>
+                                        <a href="https://lt.wikipedia.org/wiki/Europa"" >nuoroda isorine</a>
 
                     </span>
 
@@ -48,11 +49,12 @@
                 <div class="col s12 m12 l6 left-align">
                     <span class="black-text">
                         <h3> AZIJA <h3>
-                        tekstas po pavadinimo
+                        tekstas po pavadinimo su <a href="about.php"> vietine nuoroda </a>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Nesciunt impedit similique aut quos labore
                                     <h6>
-                                        <p>nuoroda</p>
+                                        <p>sugalvosiu teksta</p>
+                                        <a href="https://lt.wikipedia.org/wiki/Azija"" >nuoroda isorine</a>
                     </span>
 
                 </div>
@@ -72,11 +74,12 @@
                 <div class="col s12 m12 l6 left-align">
                     <span class="black-text">
                         <h3> ŠIAURĖS AMERIKA <h3>
-                        tekstas po pavadinimo
+                        tekstas po pavadinimo su <a href="about.php"> vietine nuoroda </a>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Nesciunt impedit similique aut quos labore
                                     <h6>
-                                        <p>nuoroda</p>
+                                        <p>sugalvosiu teksta</p>
+                                        <a href="https://lt.wikipedia.org/wiki/%C5%A0iaur%C4%97s_Amerika" >nuoroda isorine</a>
                     </span>
 
                 </div>
@@ -98,11 +101,12 @@
                 <div class="col s12 m12 l6 left-align">
                     <span class="black-text">
                         <h3> PIETŲ AMERIKA <h3>
-                            tekstas po pavadinimo
+                            tekstas po pavadinimo su <a href="about.php"> vietine nuoroda </a>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Nesciunt impedit similique aut quos labore
                                     <h6>
-                                        <p>nuoroda</p>
+                                        <p>sugalvosiu teksta</p>
+                                        <a href="https://lt.wikipedia.org/wiki/Piet%C5%B3_Amerika" >nuoroda isorine</a>
 
                     </span>
 
@@ -123,11 +127,12 @@
                 <div class="col s12 m12 l6 left-align">
                     <span class="black-text">
                         <h3> AFRIKA <h3>
-                        tekstas po pavadinimo
+                        tekstas po pavadinimo su <a href="about.php"> vietine nuoroda </a>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Nesciunt impedit similique aut quos labore
                                     <h6>
-                                        <p>nuoroda</p>
+                                        <p>sugalvosiu teksta</p>
+                                        <a href="https://lt.wikipedia.org/wiki/Afrika" >nuoroda isorine</a>
                     </span>
 
                 </div>
@@ -147,11 +152,14 @@
                 <div class="col s12 m12 l6 left-align">
                     <span class="black-text">
                         <h3> AUSTRALIJA <h3>
-                        tekstas po pavadinimo
+                        tekstas po pavadinimo su <a href="about.php"> vietine nuoroda </a>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Nesciunt impedit similique aut quos labore
                                     <h6>
-                                        <p>nuoroda</p>
+                                        <p>sugalvosiu teksta</p>
+                                        
+                                        <a href="https://lt.wikipedia.org/wiki/Australija" >nuoroda isorine</a>
+                                        
                     </span>
 
                 </div>
