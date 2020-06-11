@@ -7,11 +7,23 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Modal.init(elems);
 });
 
+
 // Jurgitos kodas
 var el = document.querySelector('.tabs');
-    var instance = M.Tabs.init(el);
+var instance = M.Tabs.init(el);
 
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.datepicker');
-        var instances = M.Datepicker.init(elems);
-      });
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.datepicker');
+  var instances = M.Datepicker.init(elems);
+
+  var elems = document.querySelectorAll('.materialboxed');
+  var instances = M.Materialbox.init(elems);
+
+  var elems = document.querySelectorAll('.tooltipped');
+  var instances = M.Tooltip.init(elems);
+});
+
+
+
+
+

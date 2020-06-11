@@ -39,7 +39,6 @@
     </div>
 
 
-
     <div class="col s12 m12 l4 left-align">
         <div class="card-panel grey lighten-4  z-depth-1">
             <div class="row valign-wrapper">
