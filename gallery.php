@@ -16,7 +16,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 <div class="row">
     <div class="col s12 m6 l4 left-align">
-        <div class="card-panel grey lighten-4  z-depth-1 ">
+        <div class="card-panel grey lighten-4  z-depth-5">
 
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
@@ -39,7 +39,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
     <div class=" col s12 m6 l4 left-align">
-        <div class="card-panel grey lighten-4  z-depth-1">
+        <div class="card-panel grey lighten-4  z-depth-5">
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
                     <img src="https://picsum.photos/id/686/200/500" alt="" class="responsive-img">
@@ -62,7 +62,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
     <div class=" col s12 m6 l4 left-align">
-            <div class="card-panel grey lighten-4  z-depth-1">
+            <div class="card-panel grey lighten-4  z-depth-5">
                  <div class="row valign-wrapper">
                      <div class="col s6 m6 l6">
                              <img src="https://picsum.photos/id/283/200/500" alt="" class="responsive-img">
@@ -87,7 +87,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
      <div class="col s12 m6 l4 left-align">
-         <div class="card-panel grey lighten-4  z-depth-1 ">
+         <div class="card-panel grey lighten-4  z-depth-5">
 
               <div class="row valign-wrapper">
                  <div class="col s6 m6 l6">
@@ -113,7 +113,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
                 <div class="col s12 m6 l4 left-align">
-                    <div class="card-panel grey lighten-4  z-depth-1">
+                    <div class="card-panel grey lighten-4  z-depth-5">
                         <div class="row valign-wrapper">
                             <div class="col s6 m6 l6">
                                 <img src="https://picsum.photos/id/1016/200/500" alt="" class="responsive-img">
@@ -136,7 +136,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
                 <div class="col s12 m6 l4 left-align">
-                    <div class="card-panel grey lighten-4  z-depth-1">
+                    <div class="card-panel grey lighten-4  z-depth-5">
                         <div class="row valign-wrapper">
                             <div class="col s6 m6 l6">
                                 <img src="https://picsum.photos/id/1015/200/500" alt="" class="responsive-img">
