@@ -190,6 +190,7 @@ header {
 .row .plotis{
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .antraste {
@@ -198,16 +199,16 @@ header {
 }
 
 .antraste h1 {
-	text-align: center;
+	text-align:center;
 	color: white;
-	font-size:xx-large;
+	font-size: 38px;
 }
 
 .antraste h2 {
 	text-align: center;
 	color: white;
     font-size: x-large;
-    font-style: italic;
+    font-style:inherit;
 }
 
 .button-holder {
@@ -226,7 +227,7 @@ header {
 
 a.button {
     background-color:whitesmoke;
-    padding: 8px 24px;
+    padding: 6px 24px;
     color: #000040;
     font-size: 16px;
     font-style: italic;
@@ -256,8 +257,16 @@ a.button:hover {
 .plotis p{
     font-size: 15px;
     font-style:normal;
+    text-align: justify;
 }
 
+.fonas {
+	background-size: cover;
+    position: relative;
+    background-color:whitesmoke;
+    padding: 25px;
+    
+}
 
 
 
