@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Jurgitos kodas
 var el = document.querySelector('.tabs');
-var instance = M.Tabs.init(el);
+var options = {
+  swipeable: false
+}
+var instance = M.Tabs.init(el, options);
 
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.datepicker');
