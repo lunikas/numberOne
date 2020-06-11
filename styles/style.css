@@ -36,6 +36,14 @@
     color: 	rgb(26, 35, 126);    
 }
 
+.material-tooltip {
+    
+    background-color: rgb(26, 35, 126);
+    border-radius: 2px;
+    color: #fff;
+    
+  }
+
 .about{
     color: 	rgb(26, 35, 126);
 }
