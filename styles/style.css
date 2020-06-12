@@ -38,12 +38,13 @@
 
 /* Sandra "galery.php" stiliaus kodas: */
 
-    
-
-
-
-
-
+  .row { 
+    display: flex;
+    flex-wrap:wrap;
+    align-items: stretch;
+  }  
+ .row .col.l4 {
+    height: 100%}
 
 
 /* Jurgita "about.php" stiliaus kodas: */

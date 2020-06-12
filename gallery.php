@@ -13,7 +13,6 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
     </div>
 </div>
 
-
 <div class="row">
     <div class="col s12 m6 l4 left-align">
         <div class="card-panel blue lighten-4  z-depth-5 ">
