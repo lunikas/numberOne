@@ -8,7 +8,9 @@
 
     <div class="antraste">
       <h1>Pamatyk Pasaulį Savo Akimis</h1>
+      
       <h2>Pasaulis yra toks platus ir spalvingas, kad apie daugybę pasakiško grožio vietų ir reiškinių, matyt, net nesi girdėjęs! Pasirink pasaulio vietas, kurias turėtum pridėti prie "bent kartą gyvenime" sąrašo!</h2>
+      <br>
       <br>
     </div>
 
