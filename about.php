@@ -59,7 +59,7 @@ if (isset($_GET["email"])) {
         <div class="card-content" id="one">
             <div class="row">
                 <div class="col l6 s12">
-                    <img class="responsive-img materialboxed " src="https://picsum.photos/id/177/500/500" alt="kalnai">
+                    <img class="responsive-img materialboxed " src="images/backpack.jpg" alt="kalnai">
                 </div>
                 <div class="col l6 s12 products">
                     <h6>Mėgstantiems aktyvų poilsį</h6>
