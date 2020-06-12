@@ -19,8 +19,18 @@
 }
 
 .page-footer {
-    background-image: url("https://picsum.photos/1200");
+    background-image: url(images\footer.jpg);
     width: 100%;
+}
+
+.logo {
+
+    height: 100%;
+}
+
+.dropdown-content li a {
+
+    color: rgb(15, 139, 221);
 }
 
 /* Sandra "galery.php" stiliaus kodas: */
