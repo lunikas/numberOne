@@ -53,7 +53,6 @@
       <div class="footer-copyright">
         <div class="container">
           © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
         </div>
       </div>
     </footer>
@@ -61,7 +60,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="scripts/script.js"></script>
-
     </body>
 
     </html>

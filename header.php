@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="styles/style.css">
+  
+  <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=5ee3a954d868b80012691588&product=sticky-share-buttons"></script>
 
 
   <title>Projekto pavadinimas</title>
@@ -25,21 +27,20 @@
         <li><a href="gallery.php">Kelionės</a></li>
         <li><a href="about.php">Apie Mus</a></li>
         <li><a href="pswprotected.php">Prisijungimas</a></li>
-        <!-- <li class="active"><a href="#collapsible">Komanda</a></li> -->
       </ul>
     </div>
 
   </nav>
 
-  <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="index.php">Alytės puslapis</a></li>
-  <li class="divider"></li>
-  <li><a href="news.php">Luko puslapis</a></li>
-  <li class="divider"></li>
-  <li><a href="gallery.php">Sandros puslapis</a></li>
-  <li class="divider"></li>
-  <li><a href="about.php">Jurgitos puslapis</a></li>
-</ul>
+
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="index.php">Alytės puslapis</a></li>
+    <li class="divider"></li>
+    <li><a href="news.php">Luko puslapis</a></li>
+    <li class="divider"></li>
+    <li><a href="gallery.php">Sandros puslapis</a></li>
+    <li class="divider"></li>
+    <li><a href="about.php">Jurgitos puslapis</a></li>
+  </ul>
 
   <!-- Čia pasikartojanti visuose puslapiuose viršutinė dalis -->

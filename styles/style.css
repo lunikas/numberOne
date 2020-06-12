@@ -21,7 +21,9 @@
 
 .page-footer {
 
-    background-image: url(../images/footer.jpg);
+    background-image: url(https://picsum.photos/id/1011/1200/200);
+    background-position: center center;
+    background-size: cover;
 }
 
 .logo {
@@ -35,6 +37,9 @@
     color: rgb(15, 139, 221);
 }
 
+.sharethis-inline-share-buttons {
+    padding-bottom: 10px;
+}
 
 /* Sandra "galery.php" stiliaus kodas: */
 
