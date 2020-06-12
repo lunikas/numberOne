@@ -5,7 +5,7 @@
 
 <!-- Čia galerijos puslapio vidinė dalis -->
 <div class="col center-align">
-    <div class="card-panel blue lighten-4  z-depth-1">
+    <div class="card-panel blue lighten-2  z-depth-5">
         <img class="responsive-img" src="https://picsum.photos/id/314/1600/400" alt="nuotrauka">
         <h6>Turizmas (gr. tornos bei lot. tornare, reiškia ratą, keliavimą ratu) – kelionės siekiant pailsėti, patirti naujų įspūdžių ar pasilinksminti. Nors pastaruoju metu terminas labiau reiškia išvykimą iš savo gyvenamosios ar darbinės aplinkos ribų. Masinio turizmo pradininku laikomas Tomas Kukas, baptistų dvasininkas, XIX a. vid. aktyviai kovojęs prieš alkoholizmą. 1841 m. liepos 5 d. jis suorganizavo besigydančių nuo alkoholizmo parapijiečių išvyką į blaivybės šalininkų sambūrį Lafbore (Didžioji Britanija). Dvasininkas subūrė 570 bendraminčių ir pats jiems organizavo kelionę traukiniu bei pasirūpino šių žmonių maitinimu, nakvyne bei pramogomis, siekdamas parodyti, kad pramogos galimos ir be svaigalų. Vėliau T. Kukas ėmėsi naujų žygių – organizavo ekskursijas traukiniais Anglijos varguomenei, vaikams ir darbininkams. Taip atsirado pirmosios turizmo agentūros ir turizmo verslo užuomazgos.
 
@@ -16,7 +16,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 <div class="row">
     <div class="col s12 m6 l4 left-align">
-        <div class="card-panel grey lighten-4  z-depth-1 ">
+        <div class="card-panel blue lighten-4  z-depth-5 ">
 
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
@@ -39,7 +39,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
     <div class=" col s12 m6 l4 left-align">
-        <div class="card-panel grey lighten-4  z-depth-1">
+        <div class="card-panel grey lighten-2  z-depth-5">
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
                     <img src="https://picsum.photos/id/686/200/500" alt="" class="responsive-img">
@@ -62,7 +62,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
     <div class=" col s12 m6 l4 left-align">
-            <div class="card-panel grey lighten-4  z-depth-1">
+            <div class="card-panel blue lighten-4  z-depth-5">
                  <div class="row valign-wrapper">
                      <div class="col s6 m6 l6">
                              <img src="https://picsum.photos/id/283/200/500" alt="" class="responsive-img">
@@ -87,7 +87,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
      <div class="col s12 m6 l4 left-align">
-         <div class="card-panel grey lighten-4  z-depth-1 ">
+         <div class="card-panel grey lighten-2  z-depth-5">
 
               <div class="row valign-wrapper">
                  <div class="col s6 m6 l6">
@@ -113,7 +113,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
                 <div class="col s12 m6 l4 left-align">
-                    <div class="card-panel grey lighten-4  z-depth-1">
+                    <div class="card-panel blue lighten-4  z-depth-5">
                         <div class="row valign-wrapper">
                             <div class="col s6 m6 l6">
                                 <img src="https://picsum.photos/id/1016/200/500" alt="" class="responsive-img">
@@ -136,7 +136,7 @@ Pamatęs neįtikėtiną susidomėjimą tokio tipo kelionėmis, nuo 1845 m. T. Ku
 
 
                 <div class="col s12 m6 l4 left-align">
-                    <div class="card-panel grey lighten-4  z-depth-1">
+                    <div class="card-panel grey lighten-2  z-depth-5">
                         <div class="row valign-wrapper">
                             <div class="col s6 m6 l6">
                                 <img src="https://picsum.photos/id/1015/200/500" alt="" class="responsive-img">
