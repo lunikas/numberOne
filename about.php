@@ -33,7 +33,7 @@ if (isset($_GET["email"])) {
 
     <div class="breadcrumb-wrapper">
         <div class="col s12">
-            <a href="index.php" class="tooltipped breadcrumb" data-tooltip="Grįžti į pradinį puslapį">Pagrindinis</a>
+            <a href="index.php" class="tooltipped breadcrumb" data-tooltip="Grįžti į pradinį puslapį">Pagrindinis</a>            
             <a href="about.php" class="breadcrumb">Apie mus</a>
         </div>
     </div>
@@ -144,7 +144,8 @@ if (isset($_GET["email"])) {
 
     </div>
 
+</div>
 
 
 
-    <?php include "footer.php" ?>
+<?php include "footer.php" ?>

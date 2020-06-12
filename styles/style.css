@@ -18,7 +18,10 @@
     color: 	rgb(26, 35, 126)
 }
 
-
+.page-footer {
+    background-image: url("https://picsum.photos/1200");
+    width: 100%;
+}
 
 /* Sandra "galery.php" stiliaus kodas: */
 
@@ -32,11 +35,11 @@
 
 /* Jurgita "about.php" stiliaus kodas: */
 
-.about .breadcrumb-wrapper {
+.breadcrumb-wrapper {
     margin-top: 20px;
 }
 
-.about .breadcrumb, .breadcrumb:before {
+.breadcrumb, .breadcrumb:before, .breadcrumb:last-child {
     color: 	rgb(26, 35, 126);    
 }
 
@@ -139,8 +142,14 @@ font-weight: 500;
 }
 
 
+h4.psw {
+    margin-bottom: 30px;
+}
 
-
+table.striped>tbody>tr th {
+    color: white;
+    background-color: rgb(26, 35, 126);
+}
 
 
 /* Alyte stiliaus kodas: */
