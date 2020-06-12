@@ -142,10 +142,14 @@ font-weight: 500;
 }
 
 
+h4.psw {
+    margin-bottom: 30px;
+}
 
-
-
-
+table.striped>tbody>tr th {
+    color: white;
+    background-color: rgb(26, 35, 126);
+}
 
 
 /* Alyte stiliaus kodas: */

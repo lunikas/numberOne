@@ -30,7 +30,7 @@
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        echo "<table class='striped'><tr><th>ID</th><th>El.paštas</th><th>Žinutė</th><th>Data</th></tr>";
+        echo "<table class='striped bordered light-blue lighten-4'><tr><th>ID</th><th>El.paštas</th><th>Žinutė</th><th>Data</th></tr>";
         // output data of each row
         while ($row = $result->fetch_assoc()) {
             echo "<tr><td>" . $row["id"] . "</td><td>" . $row["email"] . "</td><td>" . $row["message"] . "</td><td>" . $row["date"] . "</td></tr>";
@@ -44,6 +44,7 @@
 
 
 </div>
+
 </body>
 
 </html>
